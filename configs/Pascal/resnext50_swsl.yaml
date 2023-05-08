@@ -1,0 +1,10 @@
+_BASE_: "base.yaml"
+MODEL:
+  WEIGHTS: "pre_models/semi_weakly_supervised_resnext50_32x4-72679e44.pth"
+  BACKBONE:
+    NAME: "build_resnet_fpn_backbone_caffe"
+  RESNETS:
+    STRIDE_IN_1X1: False  # this is a C2 model
+    NUM_GROUPS: 32
+    WIDTH_PER_GROUP: 4
+    DEPTH: 50

@@ -1,0 +1,11 @@
+## ResNet18 FAIR model (resnet18)
+https://dl.fbaipublicfiles.com/semiweaksupervision/model_files/semi_weakly_supervised_resnet18-118f1556.pth
+## ResNet50 FAIR model (ssl_res)
+https://dl.fbaipublicfiles.com/semiweaksupervision/model_files/semi_supervised_resnet50-08389792.pth
+## ResNeXt50 FAIR model (resnext_swsl)
+https://dl.fbaipublicfiles.com/semiweaksupervision/model_files/semi_weakly_supervised_resnext50_32x4-72679e44.pth
+## Augmix ResNet50 (augmix)
+https://drive.google.com/file/d/1z-1V3rdFiwqSECz7Wkmn4VJVefJGJGiF/view
+## SENet50 (senet)
+https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/seresnet50_ra_224-8efdb4bb.pth
+

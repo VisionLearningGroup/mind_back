@@ -1,0 +1,28 @@
+_BASE_: "../Pascal/base.yaml"
+MODEL:
+  SWSL: True
+  MASK_ON: False
+  ROI_HEADS:
+    NUM_CLASSES: 20
+    SCORE_THRESH_TEST: 0.05
+INPUT:
+  MIN_SIZE_TRAIN: (800, 832, 864, 896, 928, 960, 992, 1024)
+  MIN_SIZE_TRAIN_SAMPLING: "choice"
+  MIN_SIZE_TEST: 1024
+  MAX_SIZE_TRAIN: 2048
+  MAX_SIZE_TEST: 2048
+DATASETS:
+  TRAIN: ("sim10k_train",)
+  TEST: ( "cityscapes_fine_instance_seg_val", "foggy_cityscapes_fine_instance_seg_val", "bdd_val_clean",  )
+SOLVER:
+  BASE_LR: 0.01
+  STEPS: (18000,)
+  MAX_ITER: 24000
+  IMS_PER_BATCH: 8
+  WARMUP_ITERS: 1000
+TEST:
+  EVAL_PERIOD: 100000
+DATALOADER:
+  # proposals are part of the dataset_dicts, and take a lot of RAM
+  NUM_WORKERS: 0
+
