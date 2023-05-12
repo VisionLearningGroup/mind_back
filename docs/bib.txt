@@ -1,0 +1,6 @@
+@article{saito2023mind,
+  title={Mind the Backbone: Minimizing Backbone Distortion for Robust Object Detection},
+  author={Saito, Kuniaki and Kim, Donghyun and Teterwak, Piotr and Feris, Rogerio and Saenko, Kate},
+  journal={arXiv preprint arXiv:2303.14744},
+  year={2023}
+}

@@ -6,7 +6,6 @@ paper, [Mind the Backbone: Minimizing Backbone Distortion for Robust Object Dete
 
 <center>
 <img src="images/teaser_github.png">
-<b><figcaption>Left: Baseline, Right: Ours</figcaption></b>
 </center>
 
 ## Weights
