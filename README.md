@@ -14,7 +14,7 @@ paper, [Mind the Backbone: Minimizing Backbone Distortion for Robust Object Dete
 ### Backbone
 
 Download weights for efficientnet, resnet50 instagram model, and convnext.
-For other models, we use timm or see model_list.txt to download.
+For other models, we use timm or see [model_list.txt](./model_list.txt) to download.
 
 ```
 mkdir pre_models
